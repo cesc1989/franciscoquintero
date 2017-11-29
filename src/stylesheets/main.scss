@@ -1,47 +1,61 @@
+$texts-color: #292121;
+$sidebar-background-color: #FBFBFB;
+$titles-color: #5c5151;
+
+$wide: 1024px;
+
 html, body{
   height: 100%;
 }
 
 body{
   font-family: 'Open Sans', sans-serif;
-  color: #292121;
+  color: $texts-color;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 h1, h2, h3{
   font-family: 'Roboto', sans-serif;
-  color: #5c5151;
+  color: $titles-color;
 }
 
 .header{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  width: 360px;
-  background-color: #fbfbfb;
+  background-color: $sidebar-background-color;
   text-align: center;
   padding: 16px;
-}
 
-.header ul{
-  list-style: none;
-  text-align: left;
-}
+  ul{
+    list-style: none;
+    text-align: left;
 
-.header ul li{
-  margin-left: 0;
-  padding-top: 14px;
+    li{
+      margin-left: 0;
+      padding-top: 14px;
+    }
+  }
+
+  @media(min-width: #{$wide}){
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 360px;
+  }
 }
 
 .content{
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 416px;
-}
+  @media(min-width: #{$wide}){
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 390px;
+    right: 0;
+    width: calc(100% - 360px);
+  }
 
-.content .section{
-  padding: 16px 24px;
+  .section{
+    padding: 16px 24px;
+  }
 }
