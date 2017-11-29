@@ -1,0 +1,61 @@
+$texts-color: #292121;
+$sidebar-background-color: #FBFBFB;
+$titles-color: #5c5151;
+
+$wide: 1024px;
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: $texts-color;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+  color: $titles-color;
+}
+
+.header{
+  background-color: $sidebar-background-color;
+  text-align: center;
+  padding: 16px;
+
+  ul{
+    list-style: none;
+    text-align: left;
+
+    li{
+      margin-left: 0;
+      padding-top: 14px;
+    }
+  }
+
+  @media(min-width: #{$wide}){
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 360px;
+  }
+}
+
+.content{
+  @media(min-width: #{$wide}){
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 390px;
+    right: 0;
+    width: calc(100% - 360px);
+  }
+
+  .section{
+    padding: 16px 24px;
+  }
+}

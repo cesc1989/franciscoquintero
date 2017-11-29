@@ -1,5 +1,4 @@
-{
-  "experience": [
+[
     {
       "company_name": "Ozone Labs",
       "position": 0,
@@ -137,5 +136,4 @@
         }
       ]
     }
-  ]
-}
+]

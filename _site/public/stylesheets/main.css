@@ -1,0 +1,43 @@
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #292121;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0; }
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #5c5151; }
+
+.header {
+  background-color: #FBFBFB;
+  text-align: center;
+  padding: 16px; }
+  .header ul {
+    list-style: none;
+    text-align: left; }
+    .header ul li {
+      margin-left: 0;
+      padding-top: 14px; }
+  @media (min-width: 1024px) {
+    .header {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      width: 360px; } }
+
+@media (min-width: 1024px) {
+  .content {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 390px;
+    right: 0;
+    width: calc(100% - 360px); } }
+
+.content .section {
+  padding: 16px 24px; }
