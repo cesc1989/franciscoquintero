@@ -29,6 +29,9 @@ h1, h2, h3 {
       left: 0;
       top: 0;
       width: 360px; } }
+  .header img {
+    max-width: 200px;
+    width: 50%; }
 
 @media (min-width: 1024px) {
   .content {
