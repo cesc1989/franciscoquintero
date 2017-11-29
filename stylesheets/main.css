@@ -1,9 +1,15 @@
+html, body{
+  height: 100%;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
+  color: #292121;
 }
 
 h1, h2, h3{
   font-family: 'Roboto', sans-serif;
+  color: #5c5151;
 }
 
 .header{
@@ -25,4 +31,17 @@ h1, h2, h3{
 .header ul li{
   margin-left: 0;
   padding-top: 14px;
+}
+
+.content{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+}
+
+.content .section{
+  padding: 16px 24px;
 }
