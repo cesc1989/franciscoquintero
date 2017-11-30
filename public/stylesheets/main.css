@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
   padding: 0; }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
   color: #5c5151; }
 
@@ -20,7 +20,6 @@ h1, h2, h3 {
     list-style: none;
     text-align: left; }
     .header ul li {
-      margin-left: 0;
       padding-top: 14px; }
   @media (min-width: 1024px) {
     .header {
@@ -43,4 +42,17 @@ h1, h2, h3 {
     width: calc(100% - 360px); } }
 
 .content .section {
-  padding: 16px 24px; }
+  padding: 16px; }
+  .content .section ul.job_list {
+    list-style: none; }
+    .content .section ul.job_list li.job_card {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 12px; }
+      .content .section ul.job_list li.job_card div.left, .content .section ul.job_list li.job_card div.right {
+        width: 48%;
+        display: inline-block; }
+      .content .section ul.job_list li.job_card div.left {
+        vertical-align: top; }
+      .content .section ul.job_list li.job_card div.right h5 {
+        margin-bottom: 6px; }

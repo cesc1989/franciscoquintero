@@ -16,7 +16,7 @@ body{
   padding: 0;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5{
   font-family: 'Roboto', sans-serif;
   color: $titles-color;
 }
@@ -31,7 +31,6 @@ h1, h2, h3{
     text-align: left;
 
     li{
-      margin-left: 0;
       padding-top: 14px;
     }
   }
@@ -61,6 +60,37 @@ h1, h2, h3{
   }
 
   .section{
-    padding: 16px 24px;
+    padding: 16px;
+
+    ul{
+        &.job_list{
+        list-style: none;
+
+        li{
+          &.job_card{
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 12px;
+
+            div{
+              &.left, &.right{
+                width: 48%;
+                display: inline-block;
+              }
+
+              &.left{
+                vertical-align: top;
+              }
+
+              &.right{
+                h5{
+                  margin-bottom: 6px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
