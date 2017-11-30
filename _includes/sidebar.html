@@ -1,0 +1,12 @@
+<h1 class="card_title">{{ page.title }}</h1>
+<figure>
+  <img src="public/images/francisco-quintero.jpg" alt="francisco quintero">
+</figure>
+<p>{{ page.description }}</p>
+<ul>
+  {% for link in site.data.links %}
+    <li>{{ link.title }}:
+      <a href="{{ link.link }}">{{ link.text }}</a>
+    </li>
+  {% endfor %}
+</ul>
