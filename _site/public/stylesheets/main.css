@@ -30,7 +30,8 @@ h1, h2, h3, h4, h5 {
       width: 360px; } }
   .header img {
     max-width: 200px;
-    width: 50%; }
+    width: 50%;
+    border-radius: 4px; }
 
 @media (min-width: 1024px) {
   .content {
@@ -39,20 +40,22 @@ h1, h2, h3, h4, h5 {
     top: 0;
     left: 390px;
     right: 0;
-    width: calc(100% - 360px); } }
+    width: calc(100% - 360px); }
+    .content ul.job_list {
+      list-style: none; }
+      .content ul.job_list li.job_card {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 12px; }
+        .content ul.job_list li.job_card div.left, .content ul.job_list li.job_card div.right {
+          display: inline-block; }
+        .content ul.job_list li.job_card div.left {
+          vertical-align: top;
+          width: 38%; }
+        .content ul.job_list li.job_card div.right {
+          width: 52%; }
+          .content ul.job_list li.job_card div.right h5 {
+            margin-bottom: 6px; } }
 
 .content .section {
   padding: 16px; }
-  .content .section ul.job_list {
-    list-style: none; }
-    .content .section ul.job_list li.job_card {
-      width: 100%;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 12px; }
-      .content .section ul.job_list li.job_card div.left, .content .section ul.job_list li.job_card div.right {
-        width: 48%;
-        display: inline-block; }
-      .content .section ul.job_list li.job_card div.left {
-        vertical-align: top; }
-      .content .section ul.job_list li.job_card div.right h5 {
-        margin-bottom: 6px; }

@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5{
   img{
       max-width: 200px;
       width: 50%;
+      border-radius: 4px;
   }
 }
 
@@ -57,10 +58,6 @@ h1, h2, h3, h4, h5{
     left: 390px;
     right: 0;
     width: calc(100% - 360px);
-  }
-
-  .section{
-    padding: 16px;
 
     ul{
         &.job_list{
@@ -74,15 +71,17 @@ h1, h2, h3, h4, h5{
 
             div{
               &.left, &.right{
-                width: 48%;
                 display: inline-block;
               }
 
               &.left{
                 vertical-align: top;
+                width: 38%;
               }
 
               &.right{
+                width: 52%;
+
                 h5{
                   margin-bottom: 6px;
                 }
@@ -92,5 +91,9 @@ h1, h2, h3, h4, h5{
         }
       }
     }
+  }
+
+  .section{
+    padding: 16px;
   }
 }
