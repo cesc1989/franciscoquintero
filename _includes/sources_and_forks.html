@@ -1,4 +1,4 @@
-<h2>Sources &amp; Forks</h2>
+<h2>GitHub Sources &amp; Forks</h2>
 <ul class="list">
   <li class="card">
     <div class="left same_width">
@@ -6,7 +6,7 @@
       {% assign ordered_sources = site.data.sources | reverse %}
       {% for source in ordered_sources %}
         <h4>
-          <a href="{{ source.url }}">{{ source.name }}</a>
+          <a href="{{ source.url }}" target="_blank">{{ source.name }}</a>
         </h4>
         <p>{{ source.description }}</p>
       {% endfor %}
@@ -16,7 +16,7 @@
       {% assign ordered_forks = site.data.forks | reverse %}
       {% for fork in ordered_forks %}
         <h4>
-          <a href="{{ fork.url }}">{{ fork.name }}</a>
+          <a href="{{ fork.url }}" target="_blank">{{ fork.name }}</a>
         </h4>
         <p>{{ fork.description }}</p>
       {% endfor %}

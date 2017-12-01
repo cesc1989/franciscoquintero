@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5{
   color: $titles-color;
 }
 
+h2{
+  text-decoration: underline;
+}
+
 .header{
   background-color: $sidebar-background-color;
   text-align: center;

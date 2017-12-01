@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
   color: #5c5151; }
 
+h2 {
+  text-decoration: underline; }
+
 .header {
   background-color: #FBFBFB;
   text-align: center;
