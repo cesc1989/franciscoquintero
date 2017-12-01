@@ -1,8 +1,8 @@
 <h2>Professional Experience</h2>
-<ul class="job_list">
+<ul class="list">
   {% assign ordered = site.data.jobs | reverse %}
   {% for job in ordered %}
-    <li class="job_card">
+    <li class="card">
       <div class="left">
         <h3>
           <a href="{{ job.website }}" target="_blank">{{ job.company_name }}</a>

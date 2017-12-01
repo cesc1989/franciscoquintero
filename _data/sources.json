@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Facebook URL Scrapper",
+    "url": "https://github.com/cesc1989/facebook-url-scrapper",
+    "description": "Rescrape URLs from a WordPress blog using Open Graph"
+  },
+  {
+    "name": "Open Searcher",
+    "url": "https://github.com/cesc1989/opensearcher",
+    "description": "Search and download ebooks in Open Libra public API"
+  },
+  {
+    "name": "UniApp",
+    "url": "https://github.com/cesc1989/UniApp",
+    "description": "Track grades and you subjects averages"
+  },
+  {
+    "name": "Yifynator",
+    "url": "https://github.com/cesc1989/yifinator",
+    "description": "Find movies using Yify API"
+  },
+  {
+    "name": "Measure It",
+    "url": "https://github.com/cesc1989/measureit",
+    "description": "Time track activities"
+  },
+  {
+    "name": "Airline Scrapper",
+    "url": "https://github.com/cesc1989/airline-scrapper",
+    "description": "An intent to scrap prices from an airline website"
+  },
+  {
+    "name": "Programming Elixir",
+    "url": "https://github.com/cesc1989/programming-elixir",
+    "description": "Lessons & exercises from Programming Elixir book by Dave Thomas"
+  },
+  {
+    "name": "Backend Handbook",
+    "url": "https://github.com/cesc1989/backendbook",
+    "description": "This is a handbook, not a book :)"
+  }
+]

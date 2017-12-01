@@ -60,11 +60,11 @@ h1, h2, h3, h4, h5{
     width: calc(100% - 360px);
 
     ul{
-        &.job_list{
+        &.list{
         list-style: none;
 
         li{
-          &.job_card{
+          &.card{
             width: 100%;
             border-bottom: 1px solid #ccc;
             padding-bottom: 12px;
@@ -85,6 +85,10 @@ h1, h2, h3, h4, h5{
                 h5{
                   margin-bottom: 6px;
                 }
+              }
+
+              &.left.same_width, &.right.same_width{
+                width: 48%;
               }
             }
           }
