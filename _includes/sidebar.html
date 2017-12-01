@@ -6,7 +6,9 @@
 <ul>
   {% for link in site.data.links %}
     <li>{{ link.title }}:
-      <a href="{{ link.link }}">{{ link.text }}</a>
+      <a href="{{ link.link }}" {% if link.target_blank %} target="_blank" {% endif %}>
+        {{ link.text }}
+      </a>
     </li>
   {% endfor %}
 </ul>
