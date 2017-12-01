@@ -40,6 +40,7 @@ description: Software Engineer and Backend Developer
                 <span>{{ job.starting_date }}</span> - <span>{{ job.ending_date }}</span>
               </div>
               <div class="right">
+                <h4>Projects</h4>
                 {% assign ordered_projects = job.projects | reverse %}
                 {% for project in ordered_projects %}
                   <h4>

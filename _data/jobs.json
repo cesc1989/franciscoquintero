@@ -55,7 +55,7 @@
         {
           "order": 0,
           "name": "Macsa (now Lupita)",
-          "role": "Ruby on Rails Developer",
+          "role": "Ruby on Rails Full Stack Developer",
           "description": "Online Medical History",
           "website": "",
           "stack": [
@@ -131,8 +131,11 @@
             {"name": "Phusion Passenger", "description": "Application server"},
             {"name": "Nginx", "description": "Web server"},
             {"name": "PostgreSQL", "description": "Database"},
-            {"name": "Ubuntu", "description": "Main Operating System for servers"},
+            {"name": "Terraform", "description": "Infrastructure as Code for easy provisioning"},
+            {"name": "Ansible", "description": "Configuration management for development environments"},
             {"name": "Vagrant", "description": "Development environment"},
+            {"name": "Docker & Docker Compose", "description": "Full Stack Development environment"},
+            {"name": "Ubuntu", "description": "Main Operating System for servers"},
             {"name": "Amazon Web Services", "description": "Infrastructure"}
           ]
         }
