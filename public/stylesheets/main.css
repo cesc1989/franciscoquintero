@@ -35,6 +35,11 @@ h2 {
     max-width: 200px;
     width: 50%;
     border-radius: 4px; }
+  .header .bottom_note {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 14px; }
 
 @media (min-width: 1024px) {
   .content {
