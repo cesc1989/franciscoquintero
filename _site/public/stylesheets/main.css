@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5 {
 h2 {
   text-decoration: underline; }
 
+a {
+  text-decoration: none; }
+
 .header {
   background-color: #fbfbfb;
   text-align: center;
