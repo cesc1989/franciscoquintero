@@ -1,1 +1,14 @@
-<h2>Blog</h2>
+<h2>Artículos de blog y otros</h2>
+
+Temas orientados y alejados del desarrollo de software que he escrito mi <strong><a href="https://otroespacioblog.wordpress.com" target="_blank">blog personal</a></strong> o en <strong><a href="https://medium.com/medium-colombia" target="_blank">Medium</a></strong>.
+
+<ul class="list">
+	<li class="card">
+		{% assign ordered_posts = site.data.blog | reverse %}
+		{% for post in ordered_posts %}
+		  <h4>
+		  	<a href="{{ post.url }}" target="_blank">{{ post.name }}</a>
+		  </h4>
+		{% endfor %}
+	</li>
+</ul>
