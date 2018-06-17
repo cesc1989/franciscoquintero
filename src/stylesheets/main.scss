@@ -96,6 +96,7 @@ a{
               &.left{
                 vertical-align: top;
                 width: 38%;
+                padding-right: 10px;
               }
 
               &.right{
@@ -109,6 +110,16 @@ a{
               &.left.same_width, &.right.same_width{
                 width: 48%;
               }
+            }
+          }
+
+          .same_width {
+            h4 {
+              margin-bottom: 6px;
+            }
+
+            p {
+              margin-top: 0;
             }
           }
         }

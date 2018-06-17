@@ -62,13 +62,18 @@ a {
           display: inline-block; }
         .content ul.list li.card div.left {
           vertical-align: top;
-          width: 38%; }
+          width: 38%;
+          padding-right: 10px; }
         .content ul.list li.card div.right {
           width: 52%; }
           .content ul.list li.card div.right h5 {
             margin-bottom: 6px; }
         .content ul.list li.card div.left.same_width, .content ul.list li.card div.right.same_width {
-          width: 48%; } }
+          width: 48%; }
+      .content ul.list li .same_width h4 {
+        margin-bottom: 6px; }
+      .content ul.list li .same_width p {
+        margin-top: 0; } }
 
 .content .section {
   padding: 16px; }
