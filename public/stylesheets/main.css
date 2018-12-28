@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   color: #555;
-  color: var(--gray-color); }
+  font-family: "Roboto", "Open sans", sans-serif; }
 
 body {
   padding: 0 1.5rem; }
