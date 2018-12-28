@@ -1,7 +1,3 @@
----
-title: Francisco Quintero
-description: Software Engineer and Backend Developer
----
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,26 +14,47 @@ description: Software Engineer and Backend Developer
     <meta name="twitter:creator" content="@cescquintero">
     <title>Francisco Quintero - Software Engineer</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="public/stylesheets/main.css">
   </head>
   <body>
-    <header class="header">
-      <section class="card">
-        {% include sidebar.html %}
-      </section>
-    </header>
-    <section class="content">
-      <section class="section section_1">
-        {% include jobs.html %}
-      </section>
+    <section class="hero">
+      <h1>Hello, I'm Francisco Quintero, Software Engineer and Ruby on Rails developer</h1>
+    </section>
 
-      <section class="section section_2">
-        {% include sources_and_forks.html %}
-      </section>
+    <section class="information">
+      <h2 class="subtitle">
+        Things I Know
+      </h2>
 
-      <section class="section section_3">
-        {% include blog_and_more.html %}
-      </section>
+      <div style="height:2rem"></div>
+
+      <ol class="stuff list-reset">
+        <li>
+          <a href="https://www.ruby-lang.org/" target="_blank">
+            <div class="stuff-item">
+              <div class="card-box-outer">
+                <div class="card-box-inner">
+                  <div class="card">
+                    <img src="public/images/ruby-language.svg" alt="Ruby Language">
+                  </div>
+                </div>
+              </div>
+
+              <div style="height:1rem"></div>
+              <h3 class="card-name">Ruby</h3>
+              <div style="height:0.5rem"></div>
+              <p class="card-description"></p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          
+        </li>
+      </ol>
+
+      <div style="height:2rem"></div>
     </section>
   </body>
 </html>
