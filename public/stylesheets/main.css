@@ -204,6 +204,8 @@ svg {
       font-size: 1rem;
       font-weight: 300;
       line-height: 1.4em; }
+  .information .work-experience .card img {
+    height: auto !important; }
   .information .list-reset {
     list-style-type: none;
     padding: 0; }

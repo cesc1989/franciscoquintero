@@ -264,6 +264,14 @@ svg {
     }
   }
 
+  .work-experience {
+    .card {
+      img {
+        height: auto !important;
+      }
+    }
+  }
+
   .list-reset {
     list-style-type: none;
     padding: 0;
