@@ -5,7 +5,8 @@ html, body {
   font-family: "Roboto", "Open sans", sans-serif; }
 
 body {
-  padding: 0 1.5rem; }
+  padding: 0;
+  margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
@@ -167,7 +168,8 @@ svg {
       will-change: transform; }
 
 .information {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 1.5rem; }
   .information .subtitle {
     font-size: 1.7rem;
     font-weight: 600; }

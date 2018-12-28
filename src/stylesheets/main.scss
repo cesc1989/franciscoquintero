@@ -6,7 +6,8 @@ html, body{
 }
 
 body{
-  padding: 0 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -201,6 +202,7 @@ svg {
 
 .information {
   margin: 0 auto;
+  padding: 0 1.5rem;
 
   .subtitle {
     font-size: 1.7rem;
