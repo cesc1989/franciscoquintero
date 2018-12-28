@@ -289,3 +289,22 @@ footer {
     transition: all 100ms ease-in-out;
   }
 }
+
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+    .hero {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      width: auto;
+      height: auto;
+
+      h1 {
+        top: 0%;
+      }
+
+      .chevrons {
+        position: relative;
+      }
+    }
+}
