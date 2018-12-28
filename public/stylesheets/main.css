@@ -171,6 +171,9 @@ svg {
     display: grid;
     grid-gap: 4rem 2rem;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
+    .information .stuff a:hover .card {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05); }
     .information .stuff .stuff-item .card-box-outer {
       position: relative; }
       .information .stuff .stuff-item .card-box-outer::before {
