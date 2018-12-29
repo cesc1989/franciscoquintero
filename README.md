@@ -27,3 +27,10 @@ $ npm run build
 ```
 
 Commit and push to master.
+
+## Credits
+
+Icons used in the site were found at:
+
+- [Icons8](https://icons8.com/)
+- [Icon Finder](https://www.iconfinder.com)
