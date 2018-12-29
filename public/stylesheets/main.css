@@ -221,6 +221,8 @@ footer .link {
   padding: 1.5em;
   display: block;
   transition: all 100ms ease-in-out; }
+  footer .link img {
+    height: 50px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .hero {

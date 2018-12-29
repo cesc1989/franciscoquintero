@@ -287,6 +287,10 @@ footer {
     padding: 1.5em;
     display: block;
     transition: all 100ms ease-in-out;
+
+    img {
+      height: 50px;
+    }
   }
 }
 
