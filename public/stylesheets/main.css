@@ -169,7 +169,7 @@ svg {
 
 .information {
   margin: 0 auto;
-  padding: 0 1.5rem; }
+  max-width: 1100px; }
   .information .subtitle {
     font-size: 1.7rem;
     font-weight: 600; }
@@ -228,9 +228,14 @@ footer .link {
   .hero {
     margin-top: 2rem;
     margin-bottom: 3rem;
-    width: auto;
-    height: auto; }
+    width: 100vw;
+    height: 100vh; }
     .hero h1 {
       top: 0%; }
     .hero .chevrons {
-      position: relative; } }
+      position: relative;
+      bottom: 0%; }
+  .information {
+    padding: 0 2.5rem; }
+  footer .link img {
+    height: 24px; } }
