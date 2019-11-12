@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dev As Pros",
+    "logo": "/images/companies/devaspros.png",
+    "url": "https://www.devaspros.com/"
+  },
+  {
+    "name": "Stefanini Latam",
+    "logo": "/images/companies/stefanini.jpeg",
+    "url": "https://stefanini.com/en/"
+  },
+  {
+    "name": "FullStack Labs",
+    "logo": "/images/companies/fullstacklabs.png",
+    "url": "https://www.fullstacklabs.co/"
+  },
+  {
+    "name": "Ideaware",
+    "logo": "/images/companies/ideaware.jpeg",
+    "url": "https://ideaware.co/"
+  },
+  {
+    "name": "Gaming Frog",
+    "logo": "/images/companies/gamingfrog.png",
+    "url": "https://www.gamingfrog.com/"
+  },
+  {
+    "name": "Ozone Labs",
+    "logo": "/images/companies/ozonelabs.png",
+    "url": "https://ozonegroup.co/"
+  }
+]

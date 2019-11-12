@@ -56,7 +56,7 @@ title: Software Engineer and Ruby on Rails Developer
 
   <ol class="stuff list-reset work-experience">
     <li>
-      <a href="http://ideaware.co/" target="_blank">
+      <a href="https://ideaware.co/" target="_blank">
         <div class="stuff-item">
           <div class="card-box-outer">
             <div class="card-box-inner">
@@ -84,119 +84,26 @@ title: Software Engineer and Ruby on Rails Developer
   <div style="height:2rem"></div>
 
   <ol class="stuff list-reset work-experience">
-    <li>
-      <a href="https://www.devaspros.com/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/companies/devaspros.png" alt="Dev As Pros">
+    {% for job in site.data.work %}
+      <li>
+        <a href="{{job.url}}" target="_blank">
+          <div class="stuff-item">
+            <div class="card-box-outer">
+              <div class="card-box-inner">
+                <div class="card">
+                  <img src="{{job.logo}}" alt="{{job.name}}">
+                </div>
               </div>
             </div>
+
+            <div style="height:1rem"></div>
+            <h3 class="card-name">{{job.name}}</h3>
+            <div style="height:0.5rem"></div>
+            <p class="card-description"></p>
           </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Dev As Pros</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-    
-    <li>
-      <a href="https://stefanini.com/en/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/companies/stefanini.jpeg" alt="Stefanini Latam">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Stefanini Latam</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://www.fullstacklabs.co/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/companies/fullstacklabs.png" alt="FullStack Labs">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">FullStack Labs</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="http://ideaware.co/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/companies/ideaware.jpeg" alt="Ideaware">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Ideaware</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://www.gamingfrog.com/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/companies/gamingfrog.png" alt="Gaming Frog">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Gaming Frog</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://ozonegroup.co/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/companies/ozonelabs.png" alt="Ozone Labs">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Ozone Labs</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
+        </a>
+      </li>
+    {% endfor %}
   </ol>
 
   <div style="height:4rem"></div>
