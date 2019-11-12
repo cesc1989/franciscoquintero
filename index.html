@@ -115,81 +115,26 @@ title: Software Engineer and Ruby on Rails Developer
   <div style="height:2rem"></div>
 
   <ol class="stuff list-reset">
-    <li>
-      <a href="https://leanpub.com/backendhandbook" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/ebook.png" alt="Backend Handbook">
+    {% for text in site.data.writing %}
+      <li>
+        <a href="{{text.url}}" target="_blank">
+          <div class="stuff-item">
+            <div class="card-box-outer">
+              <div class="card-box-inner">
+                <div class="card">
+                  <img src="{{text.logo}}" alt="{{text.name}}">
+                </div>
               </div>
             </div>
+
+            <div style="height:1rem"></div>
+            <h3 class="card-name">{{text.name}}</h3>
+            <div style="height:0.5rem"></div>
+            <p class="card-description">{{text.description}}</p>
           </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Backend Handbook</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description">For Ruby on Rails apps</p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://otroespacioblog.wordpress.com/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/blog.png" alt="Otro Espacio Blog">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Otro Espacio Blog</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description">My Personal Technical Blog</p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://elcaminodelpro.wordpress.com/" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/blog.png" alt="El Camino del Pro">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">El Camino del Pro</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description">Dev As Pros Blog</p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://medium.com/medium-colombia" target="_blank">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/medium.svg" alt="Medium Colombia">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Medium Colombia</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description">Non-technical Articles Exploring Ideas</p>
-        </div>
-      </a>
-    </li>
+        </a>
+      </li>
+    {% endfor %}
   </ol>
 
   <div style="height:8rem"></div>
