@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ruby",
+    "logo": "/images/ruby-language.svg",
+    "alt_text": "Ruby Language"
+  },
+  {
+    "name": "Ruby on Rails",
+    "logo": "/images/rubyonrails.svg",
+    "alt_text": "Ruby on Rails Framework"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "/images/javascript.svg",
+    "alt_text": "JavaScript Language"
+  },
+  {
+    "name": "Git",
+    "logo": "/images/git.svg",
+    "alt_text": "Git Source Control Versioning"
+  },
+  {
+    "name": "Ubuntu",
+    "logo": "/images/ubuntu.svg",
+    "alt_text": "Ubuntu Operating System"
+  },
+  {
+    "name": "Bash",
+    "logo": "/images/bash.png",
+    "alt_text": "Bash Scripting"
+  },
+  {
+    "name": "CSS3",
+    "logo": "/images/css3.svg",
+    "alt_text": "CSS3"
+  },
+  {
+    "name": "PostgreSQL",
+    "logo": "/images/postgresql.svg",
+    "alt_text": "PostgreSQL"
+  },
+  {
+    "name": "AWS",
+    "logo": "/images/aws.svg",
+    "alt_text": "Amazon Web Services"
+  },
+  {
+    "name": "Heroku",
+    "logo": "/images/heroku.svg",
+    "alt_text": "Heroku"
+  },
+  {
+    "name": "Docker",
+    "logo": "/images/docker.svg",
+    "alt_text": "Docker"
+  },
+  {
+    "name": "React",
+    "logo": "/images/react.svg",
+    "alt_text": "React"
+  }
+]

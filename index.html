@@ -24,233 +24,26 @@ title: Software Engineer and Ruby on Rails Developer
   <div style="height:2rem"></div>
 
   <ol class="stuff list-reset">
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/ruby-language.svg" alt="Ruby Language">
+    {% for tech in site.data.stack %}
+      <li>
+        <a href="javascript: void(0);">
+          <div class="stuff-item">
+            <div class="card-box-outer">
+              <div class="card-box-inner">
+                <div class="card">
+                  <img src="{{tech.logo}}" alt="{{tech.atl_text}}">
+                </div>
               </div>
             </div>
+  
+            <div style="height:1rem"></div>
+            <h3 class="card-name">{{tech.name}}</h3>
+            <div style="height:0.5rem"></div>
+            <p class="card-description"></p>
           </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Ruby</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/rubyonrails.svg" alt="Ruby on Rails framework">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Ruby on Rails</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/javascript.svg" alt="JavaScript Language">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">JavaScript</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/git.svg" alt="Git source control versioning">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Git</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/ubuntu.svg" alt="Ubuntu Operating System">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Ubuntu</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/bash.png" alt="Bash scripting">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Bash</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/css3.svg" alt="CSS3">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">CSS3</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/postgresql.svg" alt="PostgreSQL">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">PostgreSQL</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/aws.svg" alt="Amazon Web Services">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">AWS</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/heroku.svg" alt="Heroku">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Heroku</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/docker.svg" alt="Docker">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">Docker</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
-
-    <li>
-      <a href="javascript: void(0);">
-        <div class="stuff-item">
-          <div class="card-box-outer">
-            <div class="card-box-inner">
-              <div class="card">
-                <img src="/images/react.svg" alt="ReactJS">
-              </div>
-            </div>
-          </div>
-
-          <div style="height:1rem"></div>
-          <h3 class="card-name">React</h3>
-          <div style="height:0.5rem"></div>
-          <p class="card-description"></p>
-        </div>
-      </a>
-    </li>
+        </a>
+      </li>
+    {% endfor %}
   </ol>
 
   <div style="height:4rem"></div>
