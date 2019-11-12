@@ -1,32 +1,26 @@
 # My Personal Website
 
-My Personal Website, website :D
+Website 😎
 
 ## Setup
 
-Install NPM modules list in package.json:
+Install gem bundler and project gems:
 
 ```bash
-$ npm install
+$ gem install bundle
+$ (...)
+$ bundle install
 ```
 
-### Working
+## Working
 
-To watch for file changes in stylesheets:
+Run Jekyll server:
 
 ```bash
-$ npm start
+$ jekyll serve
 ```
 
-### Releasing
-
-Before releasing, make a build of the files:
-
-```bash
-$ npm run build
-```
-
-Commit and push to master.
+Now go and see `localhost:4000`
 
 ## Credits
 
