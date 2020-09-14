@@ -1,77 +1,77 @@
 [
   {
     "name": "Ruby",
-    "logo": "/images/ruby-language.svg",
+    "logo": "/images/stack/ruby-language.svg",
     "alt_text": "Ruby Language"
   },
   {
     "name": "Ruby on Rails",
-    "logo": "/images/rubyonrails.svg",
+    "logo": "/images/stack/rubyonrails.svg",
     "alt_text": "Ruby on Rails Framework"
   },
   {
     "name": "RSpec",
-    "logo": "images/rspec.png",
+    "logo": "/images/stack/rspec.png",
     "alt_text": "RSpec testing framework"
   },
   {
     "name": "JavaScript",
-    "logo": "/images/javascript.svg",
+    "logo": "/images/stack/javascript.svg",
     "alt_text": "JavaScript Language"
   },
   {
     "name": "Git",
-    "logo": "/images/git.svg",
+    "logo": "/images/stack/git.svg",
     "alt_text": "Git Source Control Versioning"
   },
   {
     "name": "Ubuntu",
-    "logo": "/images/ubuntu.svg",
+    "logo": "/images/stack/ubuntu.svg",
     "alt_text": "Ubuntu Operating System"
   },
   {
     "name": "Bash",
-    "logo": "/images/bash.png",
+    "logo": "/images/stack/bash.png",
     "alt_text": "Bash Scripting"
   },
   {
     "name": "PostgreSQL",
-    "logo": "/images/postgresql.svg",
+    "logo": "/images/stack/postgresql.svg",
     "alt_text": "PostgreSQL"
   },
   {
     "name": "AWS",
-    "logo": "/images/aws.svg",
+    "logo": "/images/stack/aws.svg",
     "alt_text": "Amazon Web Services"
   },
   {
     "name": "Heroku",
-    "logo": "/images/heroku.svg",
+    "logo": "/images/stack/heroku.svg",
     "alt_text": "Heroku"
   },
   {
     "name": "Vagrant",
-    "logo": "/images/vagrant.svg",
+    "logo": "/images/stack/vagrant.svg",
     "alt_text": "Vagrant"
   },
   {
     "name": "Docker",
-    "logo": "/images/docker.svg",
+    "logo": "/images/stack/docker.svg",
     "alt_text": "Docker"
   },
   {
     "name": "Ember",
-    "logo": "/images/ember.png",
+    "logo": "/images/stack/ember.png",
     "alt_text": "Ember JS"
   },
   {
     "name": "React",
-    "logo": "/images/react.svg",
+    "logo": "/images/stack/react.svg",
     "alt_text": "React"
   },
   {
     "name": "CSS3",
-    "logo": "/images/css3.svg",
+    "logo": "/images/stack/css3.svg",
     "alt_text": "CSS3"
   }
 ]
