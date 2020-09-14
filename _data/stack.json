@@ -35,11 +35,6 @@
     "alt_text": "Bash Scripting"
   },
   {
-    "name": "CSS3",
-    "logo": "/images/css3.svg",
-    "alt_text": "CSS3"
-  },
-  {
     "name": "PostgreSQL",
     "logo": "/images/postgresql.svg",
     "alt_text": "PostgreSQL"
@@ -60,8 +55,18 @@
     "alt_text": "Docker"
   },
   {
+    "name": "Ember",
+    "logo": "/images/ember.png",
+    "alt_text": "Ember JS"
+  },
+  {
     "name": "React",
     "logo": "/images/react.svg",
     "alt_text": "React"
+  },
+  {
+    "name": "CSS3",
+    "logo": "/images/css3.svg",
+    "alt_text": "CSS3"
   }
 ]
