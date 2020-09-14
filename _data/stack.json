@@ -10,6 +10,11 @@
     "alt_text": "Ruby on Rails Framework"
   },
   {
+    "name": "RSpec",
+    "logo": "images/rspec.png",
+    "alt_text": "RSpec testing framework"
+  },
+  {
     "name": "JavaScript",
     "logo": "/images/javascript.svg",
     "alt_text": "JavaScript Language"
