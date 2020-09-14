@@ -1,7 +1,7 @@
 [
   {
     "name": "Backend Handbook",
-    "description": "For Ruby on Rails apps",
+    "description": "Ebook about setup and deployment ror Ruby on Rails apps",
     "logo": "/images/ebook.png",
     "url": "https://leanpub.com/backendhandbook"
   },
@@ -22,5 +22,11 @@
     "description": "Non-technical Articles Exploring Ideas",
     "logo": "/images/medium.svg",
     "url": "https://medium.com/medium-colombia"
+  },
+  {
+    "name": "Evaluando 4 Herramientas Vídeo Llamadas Web",
+    "description": "Ebook about 4 tools for in-browser video calls for remote collaboration",
+    "logo": "/images/ebook.png",
+    "url": "https://leanpub.com/herramientas-video-llamada-web/"
   }
 ]
