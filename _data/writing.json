@@ -28,5 +28,11 @@
     "description": "Ebook about 4 tools for in-browser video calls for remote collaboration",
     "logo": "/images/ebook.png",
     "url": "https://leanpub.com/herramientas-video-llamada-web/"
+  },
+  {
+    "name": "Trailers y Estrenos",
+    "description": "My opinions about movies, TV series, and anime",
+    "logo": "/images/blog.png",
+    "url": "https://trailersyestrenos.co/author/fq2020/"
   }
 ]
