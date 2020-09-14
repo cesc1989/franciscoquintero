@@ -2,31 +2,37 @@
   {
     "name": "Dev As Pros",
     "logo": "/images/companies/devaspros.png",
-    "url": "https://www.devaspros.com/"
+    "url": "https://www.devaspros.com/",
+    "description": "Tech leader involved in gathering requirements and producing MVPs for entrepreneur ideas"
   },
   {
     "name": "Stefanini Latam",
     "logo": "/images/companies/stefanini.jpeg",
-    "url": "https://stefanini.com/en/"
+    "url": "https://stefanini.com/en/",
+    "description": "Worked on a brand new Ruby on Rails for the biggest Gas company in the region"
   },
   {
     "name": "FullStack Labs",
     "logo": "/images/companies/fullstacklabs.png",
-    "url": "https://www.fullstacklabs.co/"
+    "url": "https://www.fullstacklabs.co/",
+    "description": "Worked on Ruby on Rails application for in-house reporting solution"
   },
   {
     "name": "Ideaware",
     "logo": "/images/companies/ideaware.svg",
-    "url": "https://ideaware.co/"
+    "url": "https://ideaware.co/",
+    "description": "Built several Ruby on Rails apps and made the foundations for one of the biggest projects of the company"
   },
   {
     "name": "Gaming Frog",
     "logo": "/images/companies/gamingfrog.png",
-    "url": "https://www.gamingfrog.com/"
+    "url": "https://www.gamingfrog.com/",
+    "description": "Worked on a Ruby on Rails API for a eSports betting platform"
   },
   {
     "name": "Ozone Labs",
     "logo": "/images/companies/ozonelabs.png",
-    "url": "https://ozonegroup.co/"
+    "url": "https://ozonegroup.co/",
+    "description": "Very first job. I was a jack-of-all-trades here"
   }
 ]
