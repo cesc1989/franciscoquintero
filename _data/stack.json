@@ -50,6 +50,11 @@
     "alt_text": "Heroku"
   },
   {
+    "name": "Vagrant",
+    "logo": "/images/vagrant.svg",
+    "alt_text": "Vagrant"
+  },
+  {
     "name": "Docker",
     "logo": "/images/docker.svg",
     "alt_text": "Docker"
