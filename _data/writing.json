@@ -34,5 +34,11 @@
     "description": "My opinions about movies, TV series, and anime",
     "logo": "/images/blog.png",
     "url": "https://trailersyestrenos.co/author/fq2020/"
+  },
+  {
+    "name": "Social Geek",
+    "description": "I used to write about apps, awesome stuff, and the tech world",
+    "logo": "/images/blog.png",
+    "url": "https://socialgeek.co/author/fquintero/"
   }
 ]
