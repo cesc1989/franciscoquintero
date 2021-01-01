@@ -16,29 +16,5 @@
     "description": "Dev As Pros Blog",
     "logo": "/images/blog.png",
     "url": "https://elcaminodelpro.wordpress.com/"
-  },
-  {
-    "name": "Medium Colombia",
-    "description": "Non-technical Articles Exploring Ideas",
-    "logo": "/images/medium.svg",
-    "url": "https://medium.com/medium-colombia"
-  },
-  {
-    "name": "Evaluando 4 Herramientas Vídeo Llamadas Web",
-    "description": "Ebook about 4 tools for in-browser video calls for remote collaboration",
-    "logo": "/images/ebook.png",
-    "url": "https://leanpub.com/herramientas-video-llamada-web/"
-  },
-  {
-    "name": "Trailers y Estrenos",
-    "description": "My opinions about movies, TV series, and anime",
-    "logo": "/images/blog.png",
-    "url": "https://trailersyestrenos.co/author/fq2020/"
-  },
-  {
-    "name": "Social Geek",
-    "description": "I used to write about apps, awesome stuff, and the tech world",
-    "logo": "/images/blog.png",
-    "url": "https://socialgeek.co/author/fquintero/"
   }
 ]
