@@ -25,11 +25,6 @@
     "alt_text": "Git Source Control Versioning"
   },
   {
-    "name": "Ubuntu",
-    "logo": "/images/stack/ubuntu.svg",
-    "alt_text": "Ubuntu Operating System"
-  },
-  {
     "name": "Bash",
     "logo": "/images/stack/bash.png",
     "alt_text": "Bash Scripting"
