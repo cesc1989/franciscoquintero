@@ -21,7 +21,7 @@ $ bundle install
 Run:
 
 ```bash
-$ jekyll serve
+bundle exec jekyll serve
 ```
 
 Now go to `localhost:4000`
