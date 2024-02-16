@@ -2,25 +2,29 @@
 
 Website 😎
 
+## Requirements
+
+- Ruby 3.0.6
+
 ## Setup
 
 Install gem bundler and project gems:
 
 ```bash
 $ gem install bundle
-$ (...)
+
 $ bundle install
 ```
 
 ## Working
 
-Run Jekyll server:
+Run:
 
 ```bash
 $ jekyll serve
 ```
 
-Now go and see `localhost:4000`
+Now go to `localhost:4000`
 
 ## Credits
 
