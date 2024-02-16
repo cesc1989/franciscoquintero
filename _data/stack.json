@@ -50,24 +50,9 @@
     "alt_text": "Amazon Web Services"
   },
   {
-    "name": "Vagrant",
-    "logo": "/images/stack/vagrant.svg",
-    "alt_text": "Vagrant"
-  },
-  {
     "name": "Docker",
     "logo": "/images/stack/docker.svg",
     "alt_text": "Docker"
-  },
-  {
-    "name": "Ember",
-    "logo": "/images/stack/ember.png",
-    "alt_text": "Ember JS"
-  },
-  {
-    "name": "React",
-    "logo": "/images/stack/react.svg",
-    "alt_text": "React"
   },
   {
     "name": "CSS3",
