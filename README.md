@@ -8,11 +8,9 @@ Website 😎
 
 ## Setup
 
-Install gem bundler and project gems:
+Install gems:
 
 ```bash
-gem install bundle
-
 bundle install
 ```
 
