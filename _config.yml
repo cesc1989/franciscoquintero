@@ -12,3 +12,6 @@ theme: minima
 sass:
   sass_dir: _sass
   style: compressed
+
+  # Tengo esto aqui porque hay un monton de deprecation warnings por minima.
+  quiet_deps: true
