@@ -4,16 +4,16 @@ Website 😎
 
 ## Requirements
 
-- Ruby 3.0.6
+- Ruby 3.2.5
 
 ## Setup
 
 Install gem bundler and project gems:
 
 ```bash
-$ gem install bundle
+gem install bundle
 
-$ bundle install
+bundle install
 ```
 
 ## Working
