@@ -10,11 +10,5 @@
     "description": "My Personal Technical Blog",
     "logo": "/images/blog.png",
     "url": "https://otroespacioblog.wordpress.com/"
-  },
-  {
-    "name": "El Camino del Pro",
-    "description": "Dev As Pros Blog",
-    "logo": "/images/blog.png",
-    "url": "https://elcaminodelpro.wordpress.com/"
   }
 ]

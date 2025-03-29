@@ -35,16 +35,6 @@
     "alt_text": "PostgreSQL"
   },
   {
-    "name": "Heroku",
-    "logo": "/images/stack/heroku.svg",
-    "alt_text": "Heroku"
-  },
-  {
-    "name": "AWS",
-    "logo": "/images/stack/aws.svg",
-    "alt_text": "Amazon Web Services"
-  },
-  {
     "name": "Docker",
     "logo": "/images/stack/docker.svg",
     "alt_text": "Docker"
