@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cash Flow",
+    "description": "Registro de gastos",
+    "logo": "/images/tools/cashflow.png",
+    "url": "https://cashflow.devaspros.com/"
+  },
+  {
+    "name": "Coshi Notes",
+    "description": "Base de conocimiento",
+    "logo": "/images/tools/coshinotes.png",
+    "url": "https://coshinotes.devaspros.com/"
+  },
+  {
+    "name": "Lecturas",
+    "description": "Read it later",
+    "logo": "/images/tools/readeck.png",
+    "url": "https://lecturas.franciscoquintero.com/bookmarks/unread"
+  },
+  {
+    "name": "Enlacito",
+    "description": "Acortador de enlaces",
+    "logo": "/images/tools/enlacito.png",
+    "url": "https://enlacito.co/"
+  },
+  {
+    "name": "Monica",
+    "description": "CRM Personal",
+    "logo": "/images/tools/monica.png",
+    "url": "https://monica.franciscoquintero.com/dashboard"
+  }
+]

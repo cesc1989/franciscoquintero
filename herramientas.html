@@ -1,0 +1,40 @@
+---
+layout: tools
+title: Herramientas que uso en el día a día
+---
+
+<section class="information">
+  <div style="height:4rem"></div>
+
+  <h2 class="subtitle">
+    Mis Herramientas
+  </h2>
+
+  <div style="height:2rem"></div>
+
+  <ol class="stuff list-reset tools">
+    {% for tool in site.data.tools %}
+      <li>
+        <a href="{{tool.url}}" target="_blank">
+          <div class="stuff-item">
+            <div class="card-box-outer">
+              <div class="card-box-inner">
+                <div class="card">
+                  <img src="{{tool.logo}}" alt="{{tool.name}}">
+                </div>
+              </div>
+            </div>
+
+            <div style="height:1rem"></div>
+
+            <h3 class="card-name">{{tool.name}}</h3>
+
+            <div style="height:0.5rem"></div>
+
+            <p class="card-description"></p>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
