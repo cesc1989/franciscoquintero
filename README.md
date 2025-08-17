@@ -20,6 +20,10 @@ Run:
 
 ```bash
 bundle exec jekyll serve
+
+# or
+
+bundle exec jekyll serve --livereload
 ```
 
 Now go to `localhost:4000`
