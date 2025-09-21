@@ -1,22 +1,22 @@
-# My Personal Website
+# Mi sitio web
 
 Website 😎
 
-## Requirements
+## Requerimientos
 
 - Ruby 3.2.5
 
-## Setup
+## Configuración
 
-Install gems:
+Instalar gemas:
 
 ```bash
 bundle install
 ```
 
-## Working
+## Desarrollo
 
-Run:
+Servidor Jekyll con:
 
 ```bash
 bundle exec jekyll serve
@@ -26,11 +26,11 @@ bundle exec jekyll serve
 bundle exec jekyll serve --livereload
 ```
 
-Now go to `localhost:4000`
+Se ve en `localhost:4000`
 
-## Credits
+## Creditos
 
-Icons used in the site were found at:
+Los íconos fueron usados de:
 
 - [Icons8](https://icons8.com/)
 - [Icon Finder](https://www.iconfinder.com)
