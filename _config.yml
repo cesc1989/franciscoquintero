@@ -15,3 +15,5 @@ sass:
 
   # Tengo esto aqui porque hay un monton de deprecation warnings por minima.
   quiet_deps: true
+
+timezone: America/Bogota
