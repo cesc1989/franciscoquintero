@@ -1,6 +1,5 @@
 ---
 layout: posts
-title: Liberación Mental y Otras Cosas
 ---
 
 <div class="archive">
@@ -15,14 +14,14 @@ title: Liberación Mental y Otras Cosas
       {% assign date = currDate %}
     {% endif %}
 
-    <div class="archive-item">
-      <span class="post-date archive-date"
-        >{{ post.date | date: "%B %d, %Y" }}</span
-      >
-
+    <div class="archive-item d-flex justify-content-between">
       <a href="{{ post.url | relative_url }}" class="archive-title">
         {{ post.title }}
       </a>
+
+      <span class="post-date archive-date">
+        {{ post.date | date: "%B %d, %Y" }}
+      </span>
     </div>
   {% endfor %}
 </div>

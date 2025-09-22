@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Inicio",
+    "link": "/blog"
+  },
+  {
+    "name": "Herramientas",
+    "link": "/herramientas"
+  },
+  {
+    "name": "Sobre Mí",
+    "link": "/"
+  }
+]
