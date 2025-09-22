@@ -2,6 +2,7 @@
 layout: posts
 title: Vite Build Acabando Recursos de VPS
 category: software
+date: 2025-09-22 09:21:00 -05
 ---
 
 En una aplicación Ruby on Rails que estoy haciendo decidí que el frontend de una parte sería en React. Para lograrlo me valdría de Inertia para tener en un mismo repo Rails y React (porque el frontend lo hará un amigo).

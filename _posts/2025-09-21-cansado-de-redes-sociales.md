@@ -2,6 +2,7 @@
 layout: posts
 title: Ya Estoy Cansado de las Redes Sociales
 category: general
+date: 2025-09-21 17:23:00 -05
 ---
 
 Ya estoy cansado de las redes sociales. Las uso en todo caso. Unas en más medida que otras pero no cambia el hecho que ya estoy aburrido de estas.
