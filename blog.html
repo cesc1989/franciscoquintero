@@ -14,14 +14,18 @@ layout: posts
       {% assign date = currDate %}
     {% endif %}
 
-    <div class="archive-item d-flex justify-content-between">
-      <a href="{{ post.url | relative_url }}" class="archive-title">
-        {{ post.title }}
-      </a>
+    <div class="row archive-item">
+      <div class="col col-md-8">
+        <a href="{{ post.url | relative_url }}" class="archive-title">
+          {{ post.title }}
+        </a>
+      </div>
 
-      <span class="post-date archive-date">
-        {{ post.date | date: "%B %d, %Y a las %H:%M" }}
-      </span>
+      <div class="col col-md-4">
+        <span class="float-end post-date archive-date">
+          {{ post.date | date: "%B %d, %Y a las %H:%M" }}
+        </span>
+      </div>
     </div>
   {% endfor %}
 </div>
