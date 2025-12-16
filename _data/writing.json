@@ -1,14 +1,14 @@
 [
   {
-    "name": "Backend Handbook",
-    "description": "Ebook about setup and deployment ror Ruby on Rails apps",
-    "logo": "/images/ebook.png",
-    "url": "https://leanpub.com/backendhandbook"
-  },
-  {
     "name": "Otro Espacio Blog",
     "description": "My Personal Technical Blog",
     "logo": "/images/blog.png",
     "url": "https://otroespacioblog.wordpress.com/"
+  },
+  {
+    "name": "Backend Handbook",
+    "description": "Ebook about setup and deployment ror Ruby on Rails apps",
+    "logo": "/images/ebook.png",
+    "url": "https://leanpub.com/backendhandbook"
   }
 ]
