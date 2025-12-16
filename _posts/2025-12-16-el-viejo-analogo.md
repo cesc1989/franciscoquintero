@@ -19,7 +19,7 @@ Llegaron las plataformas de streaming. Si bien son convenientes en cierta forma,
 
 Recuerdo haberme pasado a Spotify porque era sencillo y no quería estar copiando mis MP3s en los computadores del trabajo. En mí celular y mí reproductor MP3 sí tenía mis playlists. En los otros computadores solo usaba Spotify.
 
-También recuerdo la época que bajaba mucho anime y películas. Vi cientos de series y films de esa forma. Al fin y al cabo era la única forma de acceder. Con la llegada de Netflix eso cambió bastante pero lo mismo que Spotify pasó. Antes eran muy buenas ahora solo quieren extraer hasta el último centavo de uno.
+También recuerdo la época que bajaba mucho anime y películas. Vi cientos de series y films de esa forma. Al fin y al cabo era la única forma de acceder. Con la llegada de Netflix eso cambió bastante pero lo mismo que Spotify pasó. Antes eran muy buenas ahora solo quieren [extraer hasta el último centavo de uno]({% post_url 2025-10-01-suscripciones-locas %}).
 
 Lo peor de todo es que sigo pagando Netflix. La conveniencia.
 
