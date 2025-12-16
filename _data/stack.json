@@ -15,33 +15,8 @@
     "alt_text": "RSpec testing framework"
   },
   {
-    "name": "JavaScript",
-    "logo": "/images/stack/javascript.svg",
-    "alt_text": "JavaScript Language"
-  },
-  {
-    "name": "Git",
-    "logo": "/images/stack/git.svg",
-    "alt_text": "Git Source Control Versioning"
-  },
-  {
-    "name": "Bash",
-    "logo": "/images/stack/bash.png",
-    "alt_text": "Bash Scripting"
-  },
-  {
     "name": "PostgreSQL",
     "logo": "/images/stack/postgresql.svg",
     "alt_text": "PostgreSQL"
-  },
-  {
-    "name": "Docker",
-    "logo": "/images/stack/docker.svg",
-    "alt_text": "Docker"
-  },
-  {
-    "name": "CSS3",
-    "logo": "/images/stack/css3.svg",
-    "alt_text": "CSS3"
   }
 ]
