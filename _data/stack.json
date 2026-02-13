@@ -10,11 +10,6 @@
     "alt_text": "Ruby on Rails Framework"
   },
   {
-    "name": "RSpec",
-    "logo": "/images/stack/rspec.png",
-    "alt_text": "RSpec testing framework"
-  },
-  {
     "name": "PostgreSQL",
     "logo": "/images/stack/postgresql.svg",
     "alt_text": "PostgreSQL"
