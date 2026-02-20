@@ -71,13 +71,6 @@ These are enforced by `.editorconfig` at the project root.
 ### HTML/Liquid Templates
 
 - Use Liquid templating syntax
-
-```
-{% %}
-
-{{ }}
-```
-
 - Follow HTML5 semantic structure
 - Keep templates clean; minimize logic in views
 - Example:
