@@ -3,6 +3,7 @@ layout: posts
 title: Ya Estoy Cansado de las Redes Sociales
 category: general
 date: 2025-09-21 17:23:00 -05
+description: Facebook, Instagram, Twitter, Bluesky, Mastodon. Repartirse entre tantas redes sociales se torna cansino. Ya estoy aburrido de todas.
 ---
 
 Ya estoy cansado de las redes sociales. Las uso en todo caso. Unas en más medida que otras pero no cambia el hecho que ya estoy aburrido de estas.

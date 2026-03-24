@@ -3,6 +3,7 @@ layout: posts
 title: Las Suscripciones Están Fuera de Control
 category: general
 date: 2025-10-01 18:18:00 -05
+description: Las suscripciones digitales están fuera de control. Desde cámaras de vigilancia hasta entretenimiento, todo exige un pago mensual.
 ---
 
 Recuerdo hace más de una década cuando conocí el término "SaaS". Era una cosa que venía a revolucionar la forma de hacer software. En vez de pagar por un programa un valor alto y luego solo actualizaciones. Paga mejor una tarifa mensual y accede a todo lo necesario, incluyendo actualizaciones.

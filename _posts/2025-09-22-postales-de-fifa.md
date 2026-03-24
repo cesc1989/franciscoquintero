@@ -2,6 +2,7 @@
 layout: posts
 category: juegos
 date: 2025-09-22 23:47:00 -05
+description: Capturas de pantalla de FIFA22 tomadas en partidos de liga. Estadios, momentos y la experiencia de jugar en modo carrera con el Barrow FC.
 title: Postales desde FIFA22
 ---
 

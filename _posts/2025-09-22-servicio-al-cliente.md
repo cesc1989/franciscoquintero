@@ -3,6 +3,7 @@ layout: posts
 title: Servicio no tan al Cliente
 category: general
 date: 2025-09-22 15:18:00 -05
+description: Llamar a servicio al cliente es una tortura. Menús interminables, datos que piden dos veces y ninguna solución a la vista.
 ---
 
 Hay muchas cosas en la vida que me resultan frustrantes. Creo que una de las más es tener que lidiar con servicio al cliente.

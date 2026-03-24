@@ -1,14 +1,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Software Engineer and Ruby on Rails Backend Developer">
+{% assign default_description = "Ingeniero de Software y Desarrollador Ruby on Rails" %}
+{% assign page_description = page.description | default: default_description %}
+{% assign page_title = page.title | default: site.title %}
+
+<meta name="description" content="{{ page_description }}">
 <meta name="author" content="Francisco Quintero">
-<meta property="og:title" content="Francisco Quintero, Software Engineer">
+<meta property="og:title" content="{{ page_title }} | {{ site.title }}">
 <meta property="og:image" content="https://www.franciscoquintero.com/images/og-image.png">
-<meta property="og:description" content="Software Engineer and Ruby on Rails Backend Developer">
+<meta property="og:description" content="{{ page_description }}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Francisco Quintero, Software Engineer">
-<meta name="twitter:description" content="Ingeniero de Software y Desarrollador Ruby on Rails">
+<meta name="twitter:title" content="{{ page_title }} | {{ site.title }}">
+<meta name="twitter:description" content="{{ page_description }}">
 <meta name="twitter:image" content="https://www.franciscoquintero.com/images/og-image.png">
 <meta name="twitter:creator" content="@cescquintero">
 

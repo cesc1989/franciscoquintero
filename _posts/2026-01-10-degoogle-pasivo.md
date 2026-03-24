@@ -3,6 +3,7 @@ layout: posts
 title: Degoogle un poco pasivo
 category: degoogle
 date: 2026-01-10 20:10:00 -05
+description: Cómo empecé a salir del ecosistema de Google de forma gradual, reemplazando Chrome, Gmail y otros servicios por alternativas más privadas.
 ---
 
 A mediados de 2024 empecé mi proceso de Degoogle. Esto es dejar de usar, lo más posible, productos y servicios de Google. Si bien es muy conveniente estar en su ecosistema, cada vez más hay razones de sobra para preocuparse en caso de que la cuenta principal sea baneada y perder acceso.

@@ -3,6 +3,7 @@ layout: posts
 title: Me Convierto en el Viejo Análogo
 category: general
 date: 2025-12-16 15:10:10:00 -05
+description: Crecí sin internet ni celular. Hoy rechazo el streaming, las redes sociales y los gadgets modernos. Me estoy convirtiendo en el viejo análogo.
 ---
 
 Nací en el año 1989. Viví muy buena parte de mi vida sin un celular ni acceso a Internet. Cuando aprendí a manejar un computador, un celular e Internet fue una época reveladora. Un mundo de información a mí alcance.

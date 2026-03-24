@@ -3,6 +3,7 @@ layout: posts
 title: La Felicidad es una Escala
 category: general
 date: 2026-02-20 17:10:00 -05
+description: La felicidad no es binaria. Es una escala. Reflexión sobre por qué la vida más simple de los 20s puede haber sido el momento de mayor felicidad.
 ---
 
 El otro día leyendo cosas en mi feed RSS en <a href="https://github.com/spacecowboy/Feeder" target="_blank">Feeder</a> me llamó la atención el artículo <a href="https://kevquirk.com/when-was-i-happiest" target="_blank">When Was I Happiest</a>. Un artículo corto y sincero que me caló porque me sentí identificado con un momento similar en mi vida.
