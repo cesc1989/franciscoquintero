@@ -316,17 +316,16 @@ footer {
   }
 }
 
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
     .hero {
       margin-top: 2rem;
       margin-bottom: 3rem;
       width: 100vw;
-      height: 100vh;
+      height: auto;
 
       h1 {
         top: 0%;
+        font-size: 1.6rem;
       }
 
       .chevrons {
@@ -337,6 +336,22 @@ footer {
 
     .information {
       padding: 0 2.5rem;
+    }
+
+    .information {
+      .stuff {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem 1rem;
+      }
+
+      .stuff.tools {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+
+        .card-name {
+          font-size: 0.75rem;
+        }
+      }
     }
 
     footer {
