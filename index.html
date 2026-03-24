@@ -3,6 +3,12 @@ layout: default
 title: Software Engineer and Ruby on Rails Developer
 ---
 
+<nav class="site-nav">
+  {% for item in site.data.index_navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
+
 <section class="hero">
   <h1>👋🏾, I'm Francisco Quintero, Software Engineer and <span class="ror">Ruby on Rails</span> Developer.</h1>
 

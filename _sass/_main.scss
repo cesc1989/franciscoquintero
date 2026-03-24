@@ -145,6 +145,24 @@ svg {
   }
 }
 
+.site-nav {
+  position: fixed;
+  top: 1.5rem;
+  right: 2rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 0.95rem;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+
+  a:hover {
+    color: #c52f24;
+  }
+}
+
 .hero {
   width: 100vw;
   max-width: 900px;
