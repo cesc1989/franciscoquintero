@@ -22,11 +22,5 @@
     "description": "Acortador de enlaces",
     "logo": "/images/tools/enlacito.png",
     "url": "https://enlacito.co/"
-  },
-  {
-    "name": "Monica",
-    "description": "CRM Personal",
-    "logo": "/images/tools/monica.png",
-    "url": "https://monica.franciscoquintero.com/dashboard"
   }
 ]
