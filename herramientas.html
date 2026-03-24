@@ -3,6 +3,12 @@ layout: tools
 title: Herramientas que uso en el día a día
 ---
 
+<nav class="site-nav">
+  {% for item in site.data.index_navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
+
 <section class="information">
   <div style="height:4rem"></div>
 
