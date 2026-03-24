@@ -317,8 +317,16 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+    .site-nav {
+      position: static;
+      padding: 1rem 1.5rem;
+      border-radius: 0;
+      background: transparent;
+      backdrop-filter: none;
+    }
+
     .hero {
-      margin-top: 2rem;
+      margin-top: 0;
       margin-bottom: 3rem;
       width: 100vw;
       height: auto;
@@ -357,7 +365,7 @@ footer {
     footer {
       .link {
         img {
-          height: 24px;
+          height: 40px;
         }
       }
     }
