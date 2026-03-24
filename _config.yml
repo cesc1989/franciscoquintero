@@ -17,3 +17,6 @@ sass:
   quiet_deps: true
 
 timezone: America/Bogota
+
+plugins:
+  - jekyll-sitemap
