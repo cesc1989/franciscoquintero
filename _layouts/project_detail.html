@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    {% include head_tags.html %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+
+    {% assign project = site.data.projects | where: "slug", page.project_slug | first %}
+    {% assign projects_count = site.data.projects | size %}
+
+    {% comment %} Encontrar índice del proyecto actual {% endcomment %}
+    {% assign current_index = 0 %}
+    {% for p in site.data.projects %}
+      {% if p.slug == page.project_slug %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %} Calcular índices anterior y siguiente {% endcomment %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+
+    {% if prev_index < 0 %}
+      {% assign prev_index = projects_count | minus: 1 %}
+    {% endif %}
+    {% if next_index >= projects_count %}
+      {% assign next_index = 0 %}
+    {% endif %}
+
+    {% assign prev_project = site.data.projects[prev_index] %}
+    {% assign next_project = site.data.projects[next_index] %}
+
+    <main role="main">
+
+      <nav class="site-nav">
+        {% for item in site.data.index_navigation %}
+          <a href="{{ item.link }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+
+      <header class="project-hero">
+        <h1 class="project-hero__title">{{ project.name }}</h1>
+      </header>
+
+      <section class="project-body">
+        <h2 class="project-body__subtitle">{{ project.subtitle }}</h2>
+
+        <div class="project-body__sections">
+          {% for section in project.sections %}
+            <div class="project-section {% if forloop.index0 == 0 or forloop.index0 == 2 %}project-section--image-right{% else %}project-section--image-left{% endif %}">
+              <div class="project-section__text">
+                <p>{{ section.text }}</p>
+              </div>
+              <div class="project-section__image">
+                <img src="{{ section.image }}" alt="{{ project.name }} - imagen {{ forloop.index }}">
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <footer class="project-footer">
+        <a href="/proyectos/{{ prev_project.slug }}" class="project-footer__card" style="background-image: url('{{ prev_project.card_image }}');">
+          <div class="project-footer__overlay"></div>
+          <span class="project-footer__label">← {{ prev_project.name }}</span>
+        </a>
+        <a href="/proyectos/{{ next_project.slug }}" class="project-footer__card" style="background-image: url('{{ next_project.card_image }}');">
+          <div class="project-footer__overlay"></div>
+          <span class="project-footer__label">{{ next_project.name }} →</span>
+        </a>
+      </footer>
+
+    </main>
+
+  </body>
+</html>

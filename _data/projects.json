@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Enlacito",
+    "slug": "enlacito",
+    "short_description": "Acortador de enlaces sin límites",
+    "card_image": "/images/projects/enlacito/001.enlacito.analytics.png",
+    "subtitle": "Servicio para acortar enlaces. Empieza con una cuenta gratuita. Pasa al plan Pro si necesitas más de 25 enlaces.",
+    "sections": [
+      {
+        "image": "/images/projects/enlacito/001.enlacito.analytics.png",
+        "text": "Análitica de cada enlace. Ver los clics, países donde se abre el enlace y más."
+      },
+      {
+        "image": "/images/projects/enlacito/002.enlacito.link.png",
+        "text": "Persona el título e imagen de Open Graph para que se vea mejor en redes sociales."
+      },
+      {
+        "image": "/images/projects/enlacito/003.enlacito.landing.png",
+        "text": "Solo dos opciones: Gratis hasta 25 enlaces. Pro para enlaces ilimitados. Todas las características en ambos planes."
+      }
+    ]
+  },
+  {
+    "name": "Cash Flow",
+    "slug": "cash-flow",
+    "short_description": "Registro personal de gastos e ingresos",
+    "card_image": "/images/projects/cash-flow/001.inicio.png",
+    "subtitle": "Un sistema personal para llevar el control de mis finanzas y gastos.",
+    "sections": [
+      {
+        "image": "/images/projects/cash-flow/001.inicio.png",
+        "text": "Puedo ingresar gastos manuales. A inicios de mes, se generan los gastos fijos."
+      },
+      {
+        "image": "/images/projects/cash-flow/002.analisis.png",
+        "text": "La sección de análitica me permite saber cómo van mis gastos en las diferentes categorías según fechas o tipo de gasto."
+      },
+      {
+        "image": "/images/projects/cash-flow/003.chores.png",
+        "text": "Hay un apartado para labores del hogar o tareas más personales. En vez de hacer un nuevo software, lo agregué aquí. Así tengo todo a la mano."
+      },
+      {
+        "image": "/images/projects/cash-flow/003.shopping.png",
+        "text": "Y también tengo la lista de mercado muy cerca. Chao Google Keep."
+      }
+    ]
+  },
+  {
+    "name": "Coshi Notes",
+    "slug": "coshi-notes",
+    "short_description": "Base de conocimiento personal",
+    "card_image": "/images/projects/coshi-notes/001.inicio.png",
+    "subtitle": "Un espacio para organizar y encontrar conocimiento, enlaces e información.",
+    "sections": [
+      {
+        "image": "/images/projects/coshi-notes/001.inicio.png",
+        "text": "Hay canales. Cada canal puede tener temas. En cada tema se hacen comentarios."
+      },
+      {
+        "image": "/images/projects/coshi-notes/002.todos.png",
+        "text": "Hay veces que necesito recordar cosas que hacer. Para eso están los _to dos_. Comentarios para volver pronto y completarlos."
+      },
+      {
+        "image": "/images/projects/coshi-notes/003.favorite.png",
+        "text": "También puedo marcar comentarios como favoritos para accederlos y distinguirlos de los demás."
+      }
+    ]
+  }
+]

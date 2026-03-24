@@ -1,0 +1,25 @@
+---
+layout: default
+title: Proyectos
+---
+
+<nav class="site-nav">
+  {% for item in site.data.index_navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
+
+<section class="projects-listing">
+  <h1 class="projects-listing__title">Proyectos</h1>
+
+  <ol class="projects-listing__grid list-reset">
+    {% for project in site.data.projects %}
+      <li>
+        <a href="/proyectos/{{ project.slug }}" class="project-card" style="background-image: url('{{ project.card_image }}');">
+          <div class="project-card__overlay"></div>
+          <h2 class="project-card__name">{{ project.name }}</h2>
+        </a>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
