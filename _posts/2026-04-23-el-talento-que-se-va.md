@@ -2,8 +2,8 @@
 layout: posts
 title: El Talento que se Va
 category: general
-date: 2026-04-23 14:30:10 -0500
-description: se va y se va
+date: 2026-04-23 14:30:10 -05
+description: Cuando las decisiones tomadas desde las directivas no tienen en cuenta el contexto e historia de los miembros del equipo que más tiempo llevan en la empresa. Se pierden historias y recuerdos para siempre.
 ---
 
 El 13 de Mayo de 2019 volví a Ideaware luego de un tiempo por fuera. Ingresé para trabajar en un proyecto de un cliente de USA. Una plataforma de fisioterapia que consistío de varios sistemas independientes. En mí equipo solo eramos un Backend (yo) y un desarrollador Frontend. A veces un diseñador nos pasaba guías o cambios puntuales.
