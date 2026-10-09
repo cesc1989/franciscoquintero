@@ -299,23 +299,6 @@ svg {
   }
 }
 
-footer {
-  .links {
-    display: flex;
-    justify-content: center;
-  }
-
-  .link {
-    padding: 1.5em;
-    display: block;
-    transition: all 100ms ease-in-out;
-
-    img {
-      height: 50px;
-    }
-  }
-}
-
 @media only screen and (max-width: 480px) {
     .site-nav {
       position: static;
@@ -358,14 +341,6 @@ footer {
 
         .card-name {
           font-size: 0.75rem;
-        }
-      }
-    }
-
-    footer {
-      .link {
-        img {
-          height: 40px;
         }
       }
     }

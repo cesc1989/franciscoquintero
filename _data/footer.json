@@ -1,0 +1,56 @@
+{
+  "contact": [
+    {
+      "name": "Escríbeme",
+      "link": "mailto:frajaquico@gmail.com?subject=Mail from website"
+    },
+    {
+      "name": "Ver mi CV",
+      "link": "https://enlacito.co/fquinterocv"
+    }
+  ],
+  "site": [
+    {
+      "name": "Blog",
+      "link": "/blog"
+    },
+    {
+      "name": "Proyectos",
+      "link": "/proyectos"
+    },
+    {
+      "name": "Herramientas",
+      "link": "/herramientas"
+    },
+    {
+      "name": "Sobre mí",
+      "link": "/"
+    }
+  ],
+  "social": [
+    {
+      "name": "GitHub",
+      "link": "https://github.com/cesc1989"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/frajaquico/"
+    },
+    {
+      "name": "X / Twitter",
+      "link": "https://twitter.com/cescquintero"
+    },
+    {
+      "name": "Bluesky",
+      "link": "https://bsky.app/profile/cescquintero.bsky.social"
+    },
+    {
+      "name": "Mastodon",
+      "link": "https://ruby.social/@cescquintero"
+    },
+    {
+      "name": "RSS",
+      "link": "/feed.xml"
+    }
+  ]
+}
