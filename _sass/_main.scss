@@ -183,6 +183,24 @@ svg {
     }
   }
 
+  &__intro {
+    position: relative;
+    top: 30%;
+    max-width: 640px;
+    margin: 2rem auto 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+
+    p + p {
+      margin-top: 1rem;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
   .chevrons {
     position: absolute;
     left: 50%;
@@ -317,6 +335,12 @@ svg {
       h1 {
         top: 0%;
         font-size: 1.6rem;
+      }
+
+      .hero__intro {
+        top: 0%;
+        padding: 0 1.5rem;
+        font-size: 1rem;
       }
 
       .chevrons {
