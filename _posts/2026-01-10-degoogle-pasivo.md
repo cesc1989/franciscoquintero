@@ -74,7 +74,7 @@ Hay que desactivar todo lo que hay en esa sección.
 
 Todo esto:
 
-![desactivar estadisticas de uso en gboard](/assets/gboard.privacy.png)
+![desactivar estadisticas de uso en gboard](/assets/gboard.privacy.webp)
 
 Sería inocente pensar que con esto Google dejará de obtener datos personales pero creo que es válido creerlo porque alguien ya se habría dado cuenta si estuvieran recopilando información de los usuarios que descativan esto.
 

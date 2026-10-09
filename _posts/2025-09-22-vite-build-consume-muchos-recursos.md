@@ -14,4 +14,4 @@ Jamás pensé. Incluso estuve a punto de separar ambas apps y conectarlas median
 
 Esto pasa porque Node necesita muchos recursos cuando hace este tipo de procesos. Al ser el VPS el más sencillo de Lino, pues se quedaba colgado.
 
-![recursos del VPS agotados por vite build](/assets/vite.build.prod.png)
+![recursos del VPS agotados por vite build](/assets/vite.build.prod.webp)
