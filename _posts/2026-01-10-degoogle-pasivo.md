@@ -57,7 +57,7 @@ En todo caso encontré algo que ma ayudará a mejorar mi privacidad. La forma es
 
 Así quedó la página principal de YT una vez hice los cambios:
 
-<img src="https://coshinotes-files.s3.amazonaws.com/169/1768052873_imagen.png" alt="desactivar historial de reproducción en youtube" />
+<img loading="lazy" src="https://coshinotes-files.s3.amazonaws.com/169/1768052873_imagen.png" alt="desactivar historial de reproducción en youtube" />
 
 No he probado en el TV pero espero que la experiencia cambie radicalmente en ese entorno la próxima vez que abra la aplicación en el smart tv.
 
@@ -74,7 +74,7 @@ Hay que desactivar todo lo que hay en esa sección.
 
 Todo esto:
 
-![desactivar estadisticas de uso en gboard](/assets/gboard.privacy.webp)
+![desactivar estadisticas de uso en gboard](/assets/gboard.privacy.webp){: loading="lazy"}
 
 Sería inocente pensar que con esto Google dejará de obtener datos personales pero creo que es válido creerlo porque alguien ya se habría dado cuenta si estuvieran recopilando información de los usuarios que descativan esto.
 

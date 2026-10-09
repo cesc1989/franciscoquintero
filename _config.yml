@@ -20,3 +20,4 @@ timezone: America/Bogota
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed

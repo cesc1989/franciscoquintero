@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Otra queja más contra Apple
-category: tecnología
+category: tecnologia
 date: 2026-08-13 11:18:11 -05
 description: Quitaron puertos de salida y el usuario termina teniendo que comprar Hubs y Docks.
 ---
@@ -22,11 +22,11 @@ Veo algo similar con Apple y la carencia de puertos de salida en sus computadore
 
 Es increíble. El MBP es más delgado y con menos puertos pero es más caro. Le quitan cosas pero le suben el precio. ¿Necesitas conectar tu monitor por HDMI o Display Port? Pues compra un Hub y listo. ¿Necesitas conectar una USB o un HDD? Procura que el hub tenga salida USB A. ¿Necesitas conectar un teclado mecánico cableado? Procura que el Hub tenga suficientes puertos.
 
-![Mí hub linkon 8 en 1](/assets/hubs-y-docks/hublinkon.jpg)
+![Mí hub linkon 8 en 1](/assets/hubs-y-docks/hublinkon.webp)
 
 Entonces vemos cosas como Hubs con 8 o 12 puertos. Buenísimo, ¿no?. Pues no. Tengo una versión anterior de este Hub Linkon en uso:
 
-![foto promocional hub linkon 8 en 1](/assets/hubs-y-docks/linkon8en1.jpg)
+![foto promocional hub linkon 8 en 1](/assets/hubs-y-docks/linkon8en1.webp){: loading="lazy"}
 
 Creí que había encontrado solución a todos mis problemas porque tiene los puertos suficientes. Hasta que un día la cámara web que conectaba al puerto USB A no recibía electricidad. Probé muchas cosas hasta que me di cuenta que era que el Hub ya no estaba mandando corriente suficiente. ¿La solución? Conectar otro Hub al segundo puerto del MBP y en ese conectar la cámara. Enseguida recibió corriente.
 
@@ -35,7 +35,7 @@ Justo por eso había comprado el Hub Linkon.
 Que maldito desastre. Tengo foto de cómo era la configuración anterior. En ese momento usaba un ratón USB con receptor porque el macos de ese momento tenía problema para tener varios periféricos conectados por Bluetooth (otra cosa más, ah).
 
 
-![hub de 3 puertos y hub de 4 puertos](/assets/hubs-y-docks/doshubs.jpeg)
+![hub de 3 puertos y hub de 4 puertos](/assets/hubs-y-docks/doshubs.webp){: loading="lazy"}
 
 ## De vuelta a los dos Hubs para más placer
 

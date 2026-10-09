@@ -7,6 +7,10 @@
 
 <meta name="description" content="{{ page_description }}">
 <meta name="author" content="Francisco Quintero">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:locale" content="es_CO">
+{% feed_meta %}
 <meta property="og:title" content="{{ page_title }} | {{ site.title }}">
 <meta property="og:image" content="https://www.franciscoquintero.com/images/og-image.png">
 <meta property="og:description" content="{{ page_description }}">

@@ -24,37 +24,37 @@ Ahora mismo juego con el Barrow FC. Equipo que tomé en League Two y llevé a la
 
 #### Repite
 
-![fifa22 stamford brdige](/assets/fifa22-stadiums/04.stamford.bridge.webp)
+![fifa22 stamford brdige](/assets/fifa22-stadiums/04.stamford.bridge.webp){: loading="lazy"}
 
 ### St Mary's - Southhamptom FC
 
-![fifa22 st Marys](/assets/fifa22-stadiums/02.saints.mary.webp)
+![fifa22 st Marys](/assets/fifa22-stadiums/02.saints.mary.webp){: loading="lazy"}
 
 ### Goodison Park - Everton FC
 
-![fifa22 goodison park](/assets/fifa22-stadiums/03.goodison.park.webp)
+![fifa22 goodison park](/assets/fifa22-stadiums/03.goodison.park.webp){: loading="lazy"}
 
 ### Molineux - Wolverhamptom FC
 
-![fifa22 molineux](/assets/fifa22-stadiums/05.molineux.webp)
+![fifa22 molineux](/assets/fifa22-stadiums/05.molineux.webp){: loading="lazy"}
 
 ### Villa Park - Aston Villa FC
 
-![fifa22 villa park](/assets/fifa22-stadiums/06.villa.park.webp)
+![fifa22 villa park](/assets/fifa22-stadiums/06.villa.park.webp){: loading="lazy"}
 
 ### Selhurst Park - Crystal Palace FC
 
-![fifa22 selhurst](/assets/fifa22-stadiums/07.selhurst.park.webp)
+![fifa22 selhurst](/assets/fifa22-stadiums/07.selhurst.park.webp){: loading="lazy"}
 
 ### Neder Stadium - Barrow FC
 
 Y este es el estadio de local del Barrow en mi partida de Modo Carrera. Es un estadio genérico del juego.
 
-![fifa22 neder](/assets/fifa22-stadiums/08.barrow.neder.webp)
+![fifa22 neder](/assets/fifa22-stadiums/08.barrow.neder.webp){: loading="lazy"}
 
 Otra más
 
-![fifa22 neder](/assets/fifa22-stadiums/09.barrow.neder.webp)
+![fifa22 neder](/assets/fifa22-stadiums/09.barrow.neder.webp){: loading="lazy"}
 
 ## Hasta la próxima
 
