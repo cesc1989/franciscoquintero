@@ -1,0 +1,2 @@
+{%- assign indice_mes = include.date | date: "%-m" | minus: 1 -%}
+{{- include.date | date: "%-d" }} de {{ site.data.meses[indice_mes] }} de {{ include.date | date: "%Y" -}}

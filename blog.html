@@ -26,7 +26,7 @@ layout: posts
 
       <div class="col col-md-4">
         <span class="float-end post-date archive-date">
-          {{ post.date | date: "%B %d, %Y a las %H:%M" }}
+          {% include fecha.html date=post.date %}
         </span>
       </div>
     </div>
