@@ -10,6 +10,7 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:locale" content="es_CO">
+<meta property="og:type" content="{% if page.collection == 'posts' %}article{% else %}website{% endif %}">
 {% feed_meta %}
 <meta property="og:title" content="{{ page_title }} | {{ site.title }}">
 <meta property="og:image" content="https://www.franciscoquintero.com/images/og-image.png">

@@ -10,9 +10,9 @@ layout: posts
     {% assign currDate = post.date | date: "%Y" %}
 
     {% if currDate != date %}
-      <h1 class="archive-year">
+      <h2 class="archive-year h1">
         {{ currDate }}
-      </h1>
+      </h2>
 
       {% assign date = currDate %}
     {% endif %}

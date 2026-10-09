@@ -20,11 +20,11 @@ Ahora mismo juego con el Barrow FC. Equipo que tomé en League Two y llevé a la
 
 ### Stamford Bridge - Chelsea FC
 
-![fifa22 stamford brdige](/assets/fifa22-stadiums/01.stamford.bridge.webp)
+![fifa22 stamford bridge](/assets/fifa22-stadiums/01.stamford.bridge.webp)
 
 #### Repite
 
-![fifa22 stamford brdige](/assets/fifa22-stadiums/04.stamford.bridge.webp){: loading="lazy"}
+![fifa22 stamford bridge](/assets/fifa22-stadiums/04.stamford.bridge.webp){: loading="lazy"}
 
 ### St Mary's - Southhamptom FC
 
