@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal portfolio and blog for Francisco Quintero — a Ruby/Rails developer. The site is in Spanish and built with Jekyll 4 + Minima theme (customized). Deployed via GitHub Pages.
+Personal portfolio and blog for Francisco Quintero — a Ruby/Rails developer. The site is in Spanish and built with Jekyll 4 (custom layouts, no theme). Deployed to GitHub Pages via the GitHub Actions workflow in `.github/workflows/jekyll.yml`, so any gem in the `Gemfile` works in production.
 
 ## Commands
 
