@@ -32,6 +32,39 @@
     ]
   },
   {
+    "name": "Super Menú",
+    "slug": "super-menu",
+    "short_description": "Menús digitales para restaurantes",
+    "card_image": "/images/projects/super-menu/001.menu.webp",
+    "subtitle": "Menús digitales para restaurantes. Creas tu cuenta, agregas tus platos y compartes un enlace con tus clientes.",
+    "tech_sheet": [
+      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · SQLite" },
+      { "label": "Frontend", "value": "Inertia.js · React 19 · Tailwind CSS 4 · Vite" },
+      { "label": "Archivos", "value": "Active Storage sobre Amazon S3" },
+      { "label": "Integraciones", "value": "Resend (correo) · Sentry" },
+      { "label": "Calidad", "value": "RSpec · Capybara · SimpleCov" },
+      { "label": "Rol", "value": "Diseño, desarrollo y operación" },
+      { "label": "Estado", "value": "En producción desde 2025" }
+    ],
+    "sections": [
+      {
+        "image": "/images/projects/super-menu/001.menu.webp",
+        "text": "Cada restaurante tiene su menú público con categorías, fotos y precios. Se ve bien desde el celular, que es donde lo abren los clientes.",
+        "tech_note": "El panel es Rails clásico y el menú público es una página React servida con Inertia.js, sin API aparte. La respuesta se cachea 5 minutos y las consultas precargan fotos y variantes para evitar N+1."
+      },
+      {
+        "image": "/images/projects/super-menu/002.como-funciona.webp",
+        "text": "Tres pasos: crear la cuenta, agregar los platos con sus fotos y compartir el enlace. Si cambia un precio, el menú se actualiza sin reimprimir nada.",
+        "tech_note": "El menú registra visitas, categorías elegidas y platos abiertos con navigator.sendBeacon, sin bloquear la interfaz. El servidor descarta bots y las visitas del dueño, limita a 120 peticiones por minuto y no guarda IP: cada visitante es un id aleatorio."
+      },
+      {
+        "image": "/images/projects/super-menu/003.admin.webp",
+        "text": "Desde un panel de administración veo los restaurantes registrados, si confirmaron el correo, su última actividad, cuántos platos tienen y las visitas de su menú en los últimos 30 días.",
+        "tech_note": "Las cuentas se organizan en organizaciones con membresías, roles e invitaciones. Cada restaurante tiene categorías, platos con variantes de precio y adiciones, y un slug validado que forma su enlace público."
+      }
+    ]
+  },
+  {
     "name": "Cash Flow",
     "slug": "cash-flow",
     "short_description": "Registro personal de gastos e ingresos",
