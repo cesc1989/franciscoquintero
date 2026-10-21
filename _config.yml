@@ -8,13 +8,9 @@ twitter_username: cescquintero
 github_username:  cesc1989
 
 # Build settings
-theme: minima
 sass:
   sass_dir: _sass
   style: compressed
-
-  # Tengo esto aqui porque hay un monton de deprecation warnings por minima.
-  quiet_deps: true
 
 timezone: America/Bogota
 
