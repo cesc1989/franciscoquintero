@@ -5,18 +5,29 @@
     "short_description": "Acortador de enlaces sin límites",
     "card_image": "/images/projects/enlacito/001.enlacito.analytics.png",
     "subtitle": "Servicio para acortar enlaces. Empieza con una cuenta gratuita. Pasa al plan Pro si necesitas más de 25 enlaces.",
+    "tech_sheet": [
+      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · Hotwire (Turbo + Stimulus) · SQLite" },
+      { "label": "Jobs", "value": "Solid Queue con tareas recurrentes · Mission Control" },
+      { "label": "Integraciones", "value": "Bold (pagos) · Resend (correo) · Geocoder · Sentry" },
+      { "label": "Calidad", "value": "RSpec · Capybara · Rack::Attack" },
+      { "label": "Rol", "value": "Diseño, desarrollo y operación" },
+      { "label": "Estado", "value": "En producción desde 2025" }
+    ],
     "sections": [
       {
         "image": "/images/projects/enlacito/001.enlacito.analytics.png",
-        "text": "Análitica de cada enlace. Ver los clics, países donde se abre el enlace y más."
+        "text": "Analítica de cada enlace. Ver los clics, países donde se abre el enlace y más.",
+        "tech_note": "Cada clic se procesa en un job de Solid Queue para que la redirección no espere. Se guarda navegador, sistema operativo y país; la IP se almacena como hash SHA-256. Un detector de bots separa los clics humanos de los crawlers."
       },
       {
         "image": "/images/projects/enlacito/002.enlacito.link.png",
-        "text": "Persona el título e imagen de Open Graph para que se vea mejor en redes sociales."
+        "text": "Personaliza el título e imagen de Open Graph para que se vea mejor en redes sociales.",
+        "tech_note": "Al crear el enlace se lee la URL destino con HTTParty y Nokogiri para sugerir título e imagen. Cuando WhatsApp, Slack o Bluesky piden el enlace, reciben una página con esas etiquetas en vez de la redirección."
       },
       {
         "image": "/images/projects/enlacito/003.enlacito.landing.png",
-        "text": "Solo dos opciones: Gratis hasta 25 enlaces. Pro para enlaces ilimitados. Todas las características en ambos planes."
+        "text": "Solo dos opciones: Gratis hasta 25 enlaces. Pro para enlaces ilimitados. Todas las características en ambos planes.",
+        "tech_note": "Los pagos se cobran con links de pago de Bold. Dos jobs diarios envían recordatorios de renovación y vencen las cuentas Pro. Las cuentas se agrupan en organizaciones con membresías y roles."
       }
     ]
   },
@@ -26,22 +37,35 @@
     "short_description": "Registro personal de gastos e ingresos",
     "card_image": "/images/projects/cash-flow/001.inicio.png",
     "subtitle": "Un sistema personal para llevar el control de mis finanzas y gastos.",
+    "tech_sheet": [
+      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · Hotwire (Turbo + Stimulus) · SQLite" },
+      { "label": "Vistas", "value": "ViewComponent · Chartkick · Bootstrap" },
+      { "label": "Jobs", "value": "Solid Queue con tareas recurrentes · Mission Control" },
+      { "label": "Caché y cable", "value": "Solid Cache · Solid Cable, ambos sobre SQLite" },
+      { "label": "Calidad", "value": "RSpec · Capybara · SimpleCov · Rack::Attack · Sentry" },
+      { "label": "Rol", "value": "Diseño, desarrollo y operación" },
+      { "label": "Estado", "value": "En uso diario desde 2023" }
+    ],
     "sections": [
       {
         "image": "/images/projects/cash-flow/001.inicio.png",
-        "text": "Puedo ingresar gastos manuales. A inicios de mes, se generan los gastos fijos."
+        "text": "Puedo ingresar gastos manuales. A inicios de mes, se generan los gastos fijos.",
+        "tech_note": "Un job recurrente de Solid Queue corre el día 1 de cada mes y crea los gastos fijos; los que caen el 30 o 31 se ajustan al último día del mes. Los montos se guardan como enteros para evitar errores de redondeo."
       },
       {
         "image": "/images/projects/cash-flow/002.analisis.png",
-        "text": "La sección de análitica me permite saber cómo van mis gastos en las diferentes categorías según fechas o tipo de gasto."
+        "text": "La sección de analítica me permite saber cómo van mis gastos en las diferentes categorías según fechas o tipo de gasto.",
+        "tech_note": "Categorías jerárquicas (padre e hijas) y consultas por rango de fechas, graficadas con Chartkick. También hay una API JSON versionada con el gasto semanal por categoría."
       },
       {
         "image": "/images/projects/cash-flow/003.chores.png",
-        "text": "Hay un apartado para labores del hogar o tareas más personales. En vez de hacer un nuevo software, lo agregué aquí. Así tengo todo a la mano."
+        "text": "Hay un apartado para labores del hogar o tareas más personales. En vez de hacer un nuevo software, lo agregué aquí. Así tengo todo a la mano.",
+        "tech_note": "Un job diario revisa las tareas próximas o pendientes y me envía un resumen por correo con Action Mailer y Resend."
       },
       {
         "image": "/images/projects/cash-flow/003.shopping.png",
-        "text": "Y también tengo la lista de mercado muy cerca. Chao Google Keep."
+        "text": "Y también tengo la lista de mercado muy cerca. Chao Google Keep.",
+        "tech_note": "Agregar y marcar productos usa Turbo Streams, así la lista se actualiza sin recargar la página."
       }
     ]
   },
@@ -51,18 +75,30 @@
     "short_description": "Base de conocimiento personal",
     "card_image": "/images/projects/coshi-notes/001.inicio.png",
     "subtitle": "Un espacio para organizar y encontrar conocimiento, enlaces e información.",
+    "tech_sheet": [
+      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · Hotwire (Turbo + Stimulus) · SQLite" },
+      { "label": "Editor", "value": "Tiptap (ProseMirror) con importmap, sin bundler de JavaScript" },
+      { "label": "Archivos", "value": "Amazon S3 (aws-sdk)" },
+      { "label": "Caché y cable", "value": "Solid Cache · Solid Cable, ambos sobre SQLite" },
+      { "label": "Calidad", "value": "RSpec · Capybara · SimpleCov · Sentry" },
+      { "label": "Rol", "value": "Diseño, desarrollo y operación" },
+      { "label": "Estado", "value": "En uso diario desde 2023" }
+    ],
     "sections": [
       {
         "image": "/images/projects/coshi-notes/001.inicio.png",
-        "text": "Hay canales. Cada canal puede tener temas. En cada tema se hacen comentarios."
+        "text": "Hay canales. Cada canal puede tener temas. En cada tema se hacen comentarios.",
+        "tech_note": "Modelo Canal → Tema → Comentario. Los comentarios se escriben con un editor Tiptap conectado a un controlador de Stimulus; las imágenes se arrastran al editor y se suben a S3 mediante un endpoint JSON."
       },
       {
         "image": "/images/projects/coshi-notes/002.todos.png",
-        "text": "Hay veces que necesito recordar cosas que hacer. Para eso están los _to dos_. Comentarios para volver pronto y completarlos."
+        "text": "Hay veces que necesito recordar cosas que hacer. Para eso están los _to dos_. Comentarios para volver pronto y completarlos.",
+        "tech_note": "Un to do es un comentario con un estado (enum todo/done), sin tabla aparte. Atajos de teclado hechos con Stimulus para publicar, buscar y navegar."
       },
       {
         "image": "/images/projects/coshi-notes/003.favorite.png",
-        "text": "También puedo marcar comentarios como favoritos para accederlos y distinguirlos de los demás."
+        "text": "También puedo marcar comentarios como favoritos para accederlos y distinguirlos de los demás.",
+        "tech_note": "La búsqueda cubre temas y comentarios desde una sola tabla de índice que usa delegated_type de Rails y se llena con callbacks al crear contenido."
       }
     ]
   }

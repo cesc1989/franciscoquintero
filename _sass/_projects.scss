@@ -60,12 +60,30 @@
 // ── Project Detail ──────────────────────────────────────────
 
 .project-hero {
+  --hero-from: #0d1b2a;
+  --hero-to: #1b3a5c;
+
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 40vh;
-  background: linear-gradient(135deg, #0d1b2a 0%, #1b3a5c 100%);
+  background: linear-gradient(135deg, var(--hero-from) 0%, var(--hero-to) 100%);
   padding: 6rem 2rem 4rem;
+
+  &--enlacito {
+    --hero-from: #062f57;
+    --hero-to: #0d5ba8;
+  }
+
+  &--cash-flow {
+    --hero-from: #2e1065;
+    --hero-to: #7c3aed;
+  }
+
+  &--coshi-notes {
+    --hero-from: #0a0a0a;
+    --hero-to: #4a4a4a;
+  }
 
   &__title {
     color: #fff;
@@ -95,6 +113,37 @@
   }
 }
 
+.tech-sheet {
+  --tech-sheet-border: hsl(0, 0%, 88%);
+  --tech-sheet-label: #888;
+  --tech-sheet-text: #333;
+
+  max-width: 760px;
+  margin: 0 auto 5rem;
+  border-top: 1px solid var(--tech-sheet-border);
+
+  &__row {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--tech-sheet-border);
+  }
+
+  dt {
+    flex: 0 0 8rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--tech-sheet-label);
+  }
+
+  dd {
+    margin: 0;
+    color: var(--tech-sheet-text);
+  }
+}
+
 .project-section {
   display: flex;
   align-items: center;
@@ -116,6 +165,15 @@
       line-height: 1.8;
       color: #555;
     }
+  }
+
+  &__text &__tech-note {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #1b3a5c;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #666;
   }
 
   &__image {
@@ -212,6 +270,19 @@
 
     &__sections {
       gap: 3rem;
+    }
+  }
+
+  .tech-sheet {
+    margin-bottom: 3rem;
+
+    &__row {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    dt {
+      flex-basis: auto;
     }
   }
 
