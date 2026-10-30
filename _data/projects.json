@@ -6,10 +6,10 @@
     "card_image": "/images/projects/enlacito/001.enlacito.analytics.png",
     "subtitle": "Servicio para acortar enlaces. Empieza con una cuenta gratuita. Pasa al plan Pro si necesitas más de 25 enlaces.",
     "tech_sheet": [
-      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · Hotwire (Turbo + Stimulus) · SQLite" },
-      { "label": "Jobs", "value": "Solid Queue con tareas recurrentes · Mission Control" },
-      { "label": "Integraciones", "value": "Bold (pagos) · Resend (correo) · Geocoder · Sentry" },
-      { "label": "Calidad", "value": "RSpec · Capybara · Rack::Attack" },
+      { "label": "Stack", "value": "Ruby 3.4, Rails 8, Hotwire (Turbo + Stimulus), SQLite" },
+      { "label": "Jobs", "value": "Solid Queue con tareas recurrentes, Mission Control" },
+      { "label": "Integraciones", "value": "Bold (pagos), Resend (correo), Geocoder, Sentry" },
+      { "label": "Calidad", "value": "RSpec, Capybara, Rack::Attack" },
       { "label": "Rol", "value": "Diseño, desarrollo y operación" },
       { "label": "Estado", "value": "En producción desde 2025" }
     ],
@@ -38,11 +38,11 @@
     "card_image": "/images/projects/super-menu/001.menu.webp",
     "subtitle": "Menús digitales para restaurantes. Creas tu cuenta, agregas tus platos y compartes un enlace con tus clientes.",
     "tech_sheet": [
-      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · SQLite" },
-      { "label": "Frontend", "value": "Inertia.js · React 19 · Tailwind CSS 4 · Vite" },
+      { "label": "Stack", "value": "Ruby 3.4, Rails 8, SQLite" },
+      { "label": "Frontend", "value": "Inertia.js, React 19, Tailwind CSS 4, Vite" },
       { "label": "Archivos", "value": "Active Storage sobre Amazon S3" },
-      { "label": "Integraciones", "value": "Resend (correo) · Sentry" },
-      { "label": "Calidad", "value": "RSpec · Capybara · SimpleCov" },
+      { "label": "Integraciones", "value": "Resend (correo), Sentry" },
+      { "label": "Calidad", "value": "RSpec, Capybara, SimpleCov" },
       { "label": "Rol", "value": "Diseño, desarrollo y operación" },
       { "label": "Estado", "value": "En producción desde 2025" }
     ],
@@ -71,11 +71,11 @@
     "card_image": "/images/projects/cash-flow/001.inicio.png",
     "subtitle": "Un sistema personal para llevar el control de mis finanzas y gastos.",
     "tech_sheet": [
-      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · Hotwire (Turbo + Stimulus) · SQLite" },
-      { "label": "Vistas", "value": "ViewComponent · Chartkick · Bootstrap" },
-      { "label": "Jobs", "value": "Solid Queue con tareas recurrentes · Mission Control" },
-      { "label": "Caché y cable", "value": "Solid Cache · Solid Cable, ambos sobre SQLite" },
-      { "label": "Calidad", "value": "RSpec · Capybara · SimpleCov · Rack::Attack · Sentry" },
+      { "label": "Stack", "value": "Ruby 3.4, Rails 8, Hotwire (Turbo + Stimulus), SQLite" },
+      { "label": "Vistas", "value": "ViewComponent, Chartkick, Bootstrap" },
+      { "label": "Jobs", "value": "Solid Queue con tareas recurrentes, Mission Control" },
+      { "label": "Caché y cable", "value": "Solid Cache, Solid Cable, ambos sobre SQLite" },
+      { "label": "Calidad", "value": "RSpec, Capybara, SimpleCov, Rack::Attack, Sentry" },
       { "label": "Rol", "value": "Diseño, desarrollo y operación" },
       { "label": "Estado", "value": "En uso diario desde 2023" }
     ],
@@ -109,11 +109,11 @@
     "card_image": "/images/projects/coshi-notes/001.inicio.png",
     "subtitle": "Un espacio para organizar y encontrar conocimiento, enlaces e información.",
     "tech_sheet": [
-      { "label": "Stack", "value": "Ruby 3.4 · Rails 7.2 · Hotwire (Turbo + Stimulus) · SQLite" },
+      { "label": "Stack", "value": "Ruby 3.4, Rails 8, Hotwire (Turbo + Stimulus), SQLite" },
       { "label": "Editor", "value": "Tiptap (ProseMirror) con importmap, sin bundler de JavaScript" },
       { "label": "Archivos", "value": "Amazon S3 (aws-sdk)" },
-      { "label": "Caché y cable", "value": "Solid Cache · Solid Cable, ambos sobre SQLite" },
-      { "label": "Calidad", "value": "RSpec · Capybara · SimpleCov · Sentry" },
+      { "label": "Caché y cable", "value": "Solid Cache, Solid Cable, ambos sobre SQLite" },
+      { "label": "Calidad", "value": "RSpec, Capybara, SimpleCov, Sentry" },
       { "label": "Rol", "value": "Diseño, desarrollo y operación" },
       { "label": "Estado", "value": "En uso diario desde 2023" }
     ],
